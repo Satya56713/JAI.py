@@ -1,0 +1,19 @@
+class cse:
+    # class attributes
+    name=""
+    rno= 0
+# object creation to the class
+c1=cse()
+c1.name="ramu"
+c1.rno= "12345"
+
+c2=cse()
+c2.name="csea"
+c2.rno= "12"
+
+# display object
+print(c1.name)
+print(c1.rno)
+
+print(c2.name)
+print(c2.rno)
