@@ -1,0 +1,38 @@
+class collecting:
+    def __init__(self):
+        self.things= []
+        
+    def add_thing(self,thing_name,qty):
+        thing = (thing_name,qty)
+        self.things.append(thing)
+
+    def remove_thing(self, thing_name):
+        for item in self.things:
+            if thing[0] == thing_name:
+                self.things.remove(thing)
+                break
+    def calculate_total(self):
+          total = 0
+          for item in self.things:
+                total += thing[1]
+          return total
+c = collecting ()
+
+c.add_thing("Apple", 100)
+c.add_thing("Almonds", 50)
+c.add_thing("Eggs", 20)
+c.add_thing("Bread", 10)
+
+print("current Things in c:")
+for thing in c.things:
+    print(thing[0], "=",thing[1])
+    
+total_qty = c.calculate_total ()
+print("Total Quantity:",total_qty)
+
+c.remove_thing("Bread")
+print("\nUpdated Things in c after removing Bread:")
+for thing in c.things:
+    print(thing[0], "-", thing[1])
+total_qty = c.calculate_total()
+print("Total Quantity:", total_qty)
