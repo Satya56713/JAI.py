@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minic_static_website.html</title>
+</head>
+<body>
+    <center style="color:aliceblue; background-color:darkcyan">
+   <h1><b>Your Name</b></h1>
+   <p>Web Development Learner</p><br>
+   <b>
+    <row>Home</row>
+    <row>About</row>
+    <row>Skills</row>
+    <row>Education</row>
+    <row>Contact</row>
+   </b>
+   </center>
+   <p1 style="color:black; background-color:aliceblue">
+    <h1><b>About Me</b></h1>
+    <p>Hello! I am learning HTML and CSS to build simple and attractive static websites.</p>
+   </p1>
+   <section style="color:black; background-color: gray;">
+   <p style="background-color:gray">
+    <h1><b>Skills</b></h1>
+    <ul>
+        <li>HTML-Page structure</li>
+        <li>CSS-Styling and layouts</li>
+        <li>Basic Web Design</li>
+    </ul>
+</p>
+</section>
+<section style="colorblack; background-color: lightgreen;">
+<p2>
+    <h1><b>Education</b></h1>
+   <table border="1px" cellspacing="0px">
+    <tr>
+        <b>
+        <th>Course</th>
+        <th>Institute</th>
+        <th>Year</th>
+        </b>
+    </tr>
+    <tr>
+        <td>Bachelor Degree</td>
+        <td>XYZ College</td>
+        <td>2023</td>
+    </tr>
+    <tr>
+        <td>Intermediate</td>
+        <td>ABC College</td>
+        <td>2020</td>
+    </tr>
+    </table>
+</p2>
+</section>
+<section style="color:black; background-color: pink">
+<p3>
+    <h1><b>Contact Me</b></h1>
+    Name:<br>
+    <input type="text" placeholder="Your name"><br>
+    Email:<br>
+    <input type="email" placeholder="Your email"><br>
+    Message:<br>
+    <textarea rows="3" cols="30"></textarea><br>
+    <p>
+    upload file <button>choose file</button>No file chosen
+    </p>
+    <button>send</button>
+    </p3>
+
+    <center style="color:aliceblue; background-color: darkgreen;">
+        <row>
+        <input type="radio" placeholder="c">
+        2025 Your Name | Static Portfolio Website
+        </row>
+    </center>
+    </section>
+        
+</body>
+</html>
