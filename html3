@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .h{
+            color: black;
+            background-color: white;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid black;
+            border-bottom: 0px solid white;
+        }
+        .s{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+        }
+        .m,.f{
+            padding: 10px 10px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+        .btn{
+            color: blue;
+            background-color: white;
+            width: auto;
+            height: 30px;
+            border-radius: 2vw;
+        }
+        .b1{
+            background-color: white;
+            color: black;
+            width: auto;
+            height: 30px;
+            border-radius: 2vw;
+            border-color: blue;
+        }
+        h3{
+            color: blue;
+            border-bottom: 2px solid black;
+        }
+        .l,.g,.a{
+            border: 2px solid black;
+            width: auto;
+            height: auto;
+            text-align: center;
+        }
+        .project{
+            padding: 10px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            display:flex;
+           
+        }
+        .footer{
+            text-align: center;
+            color: black;
+            background-color: white;
+        }
+        .ch{
+            padding: 10px 10px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+            border: 2px solid black;
+            border-radius: 2vw;
+        }
+        .head{
+            color: blue;
+            border-bottom: 2px solid black;
+            padding: 10px 10px;
+            margin-left: 10vw;
+            margin-right: 10vw;
+        }
+        .sec{
+            border-bottom: 2px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="h">
+    <h2 id="SN">StudentName</h2>
+    <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    </nav>
+    </header>
+    <div class="s">
+    <section>
+    <h1><b>Your name</b></h1>
+    <p>B.Tech 1st Year | Aspiring Full-Stack Developer</p>
+
+    <button class="btn">Update Intro</button>
+    <button class="btn">Download Resume</button>
+    </section>
+    </div>
+    <div class="m">
+    <main>
+    <h3>About Me</h3>
+    <p>I am a B.Tech 2nd Year Computer Science student interested in web development. I enjoy building websites using core web technologies.</p>
+    </main>
+    </div>
+    <div class="f">
+    <footer>
+    <h3 style="color:blue;">Technical Skills</h3>
+    <button class="b1">HTML</button>
+    <button class="b1">CSS</button>
+    <button class="b1">JavaScript</button>
+    <button class="b1">Python</button>
+    <button class="b1">SQL</button>
+    <button class="b1">Django</button>
+    </footer>
+    </div>
+    <section class="project">
+        <h3>Projects</h3><br>
+    <div class="p">
+    <div class="l">
+        <h2>Student Portfolio</h2>
+        <p>Personal portfolio website using <br>HTML,CSS,JavaScript.</p>
+        <button>View</button>
+    </div><br>    
+    <div class="g">
+        <h2>JS Calculator</h2>
+        <p>Calculator using DOM <br>events and functions.</p>
+        <button>View</button>
+    </div>    
+    <div class="a">
+        <h2>Student Result App</h2>
+        <p>Marks calculation and <br>grade display.</p>
+        <button>View</button>
+    </div>
+    </div>
+    </section>
+
+   
+        <header class= "head">
+        <h2 class="cd">Contact Details</h2>
+        </header>
+        <div>
+       <p class="ch">
+        <b>Email:</b> jaswanth@gmail.com.com<br>
+        <b>Phone:</b> +91 9XXXXXXXXX<br>
+        <b>Location: </b>Andhra Pradesh, India<br>
+        <b>GitHub:</b>github.comjaswanth
+       </p>
+    </div>
+    <div class="footer">
+        &copy; 2025 | studentName Portfolio
+    </div>
+    <script>
+        function project1(event){
+            window.open("demoproject.html")
+        }
+    </script>
+</body>
+</html>
